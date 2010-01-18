@@ -1,0 +1,20 @@
+Introduction
+--------------------
+A replacement for the HTML "file" input type allowing a user to browse remote files on the server instead of files local to their computer.
+
+Usage
+--------------------
+1. Include jQuery and formTree plugin
+2. Specify the DOM element(s) to replace:
+
+$('input').formTree('index.php');
+
+The first parameter represents the file that will return the unordered list to be used as the file tree.
+
+Homepage
+--------------------
+For options, examples, and downloads, visit the project homepage at http://chrisgunther.net/projects/formtree
+
+Issues
+--------------------
+Use the Issues feature of GitHub to report any issues or fork the project, make your changes, and send me a pull request.
